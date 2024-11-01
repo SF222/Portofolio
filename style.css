@@ -1,0 +1,233 @@
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: #79B791;
+}
+
+.about {
+    padding: 100px 0;
+}
+
+.about-text {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #333333;
+}
+
+.about-text p {
+    font-size: 1em;
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.about-text ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.about-text ul li {
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+.services{
+    background-color: #ABD1B5 !important;
+    padding: 100px 0;
+    padding-top: 120px;
+    margin: 0;
+}
+
+.services h1 {
+    color: white;
+    margin-top: -55px;
+    margin-bottom: 50px;
+}
+
+.Project {
+    padding: 100px 0;
+}
+
+.contact {
+    padding: 100px 0;
+    background-color: #ABD1B5 !important;
+}
+
+.contact h1 {
+color: white;
+}
+
+
+/* hero background image */
+.bgimage {
+    padding: 100px 0;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(47, 175, 98, 0.301)), 
+                url('images/heroImage.jpeg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/* spacing on all sections */
+/* #about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+} */
+#contact {
+    padding-bottom: 4rem;
+}
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #79B791; /* Warna latar belakang footer */
+    color: #fff; /* Warna teks */
+    padding: 20px 0; /* Jarak atas dan bawah */
+    text-align: center; /* Teks rata tengah */
+    font-size: 14px; /* Ukuran font */
+  }
+  
+  footer p {
+    margin: 0; /* Menghilangkan margin bawaan pada paragraf */
+  }
+  
+  /* imageAboutPage */
+  .imageAboutPage {
+    border: 5px solid #ddd; /* Memberikan bingkai warna abu-abu */
+    border-radius: 10px; /* Membuat sudut bingkai melengkung */
+    padding: 5px; /* Menambah jarak antara gambar dan bingkai */
+    width: 70%; /* Ukuran default untuk mengikuti ukuran kolom */
+    max-width: 70%; /* Membatasi lebar maksimum gambar */
+    height: auto; /* Menjaga rasio gambar */
+    transition: transform 0.3s ease; /* Animasi untuk efek hover */
+}
+
+.imageAboutPage:hover {
+    transform: scale(1.05); /* Membesarkan gambar saat dihover */
+}
+
+.navbar {
+    background-color: #79b791; /* Warna latar belakang navbar */
+    color: #fff !important; /* Warna teks */
+    position: fixed; /* Membuat navbar tetap di atas */
+    top: 0; /* Memasang navbar di atas */
+    left: 0; /* Memasang navbar di kiri */
+    width: 100%; /* Ukuran default untuk mengikuti ukuran layar */
+    z-index: 100; /* Membuat navbar tertinggi di atas */
+}
+
+/* Navbar center alignment hamberger */
+.navbar .container {
+    display: flex;
+    justify-content: center; /* Mengatur agar navigasi berada di tengah */
+    align-items: center;
+}
+
+.navbar-brand {
+    margin-right: auto; /* Meletakkan navbar-brand di sisi kiri */
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 20px; /* Jarak antara item navigasi */
+}
+
+
+/* Pastikan tombol hamburger dan menu berada di tengah */
+.navbar-toggler {
+    margin-left: auto;
+}
+
+.collapse.navbar-collapse {
+    justify-content: center;
+}
+
+.navbar-nav {
+    text-align: center;
+    color: #fff;
+    gap: 1rem;
+}
+
+/* Style for cards in the Project section */
+#Project .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#Project .card-body {
+    flex-grow: 1;
+}
+
+#Project .card h4 {
+    text-align: center;
+    font-weight: bold;
+}
+
+#Project .card p {
+    text-align: center;
+}
+
+
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+    color: #79b791; /* Sesuaikan dengan warna tema */
+}
+.card-title {
+    text-align: center;
+    font-weight: bold;
+}
+.card-text {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
